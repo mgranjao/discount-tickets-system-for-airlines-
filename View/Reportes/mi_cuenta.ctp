@@ -1,0 +1,96 @@
+
+
+<div class="inside">
+
+<div class="usuarios form">
+<?php echo $this->Form->create('Usuario'); ?>
+	<fieldset>
+		<legend><?php echo __('Mi Cuenta'); ?></legend>
+	<?php
+		/*echo $this->Form->input('USU_ID');
+		echo $this->Form->input('PER_ID');
+		echo $this->Form->input('AERO_ID');
+		echo $this->Form->input('USU_EMAIL');
+		echo $this->Form->input('USU_PASSWORD');
+		echo $this->Form->input('USU_TELEFONO');
+		echo $this->Form->input('USU_DIRECCION');*/
+        
+       /* echo $this->Form->input("PER_ID", array(
+                "type" => "select", // también sirve "radio"
+                "options" => $perfiles,
+                "label" => "Perfil"
+                    )
+               );*/
+
+              /* echo $this->Form->input("AERO_ID", array(
+                "type" => "select", // también sirve "radio"
+                "options" => $aerolineas,
+                "label" => "Aerol&iacute;nea"
+                    )
+                  );*/
+                  ?>
+                 <p class="no_bg">
+                 <?
+                 echo $this->Form->label('AERO_ID','Aerolinea: ').$aerolinea[0]['Aerolinea']['AERO_NOMBRE'];
+                 ?>
+
+                 </p>
+                 <p class="bg">
+                <?
+                 echo $this->Form->label('PER_ID','Perfil: ').$perfil[0]['Perfile']['PER_NOMBRE'];
+                 ?>
+                </p>
+                <p class="no_bg">
+                 <?
+                 echo $this->Form->label('USU_EMAIL','E-mail: ').$user[0]['Usuario']['USU_EMAIL'];
+                 ?>
+                </p>
+                <div class="bg">
+                <?
+                 //echo $this->Form->input('USU_EMAIL', array("label" => "E-mail" ));
+	  	 
+                //echo $this->Form->input('USU_PASSWORD');
+                echo $this->Form->input("USU_PASSWORD", array(
+                "type" => "password",
+                "label" => "Password"    
+                    )
+                );
+                ?>
+                </div>
+                <div class="no_bg">
+                <?
+                echo $this->Form->input("USU_PASSWORD_CONFIRM", array(
+                "type" => "password",
+                "label" => "Confirmar Password" ,
+                "value" => $password
+                    )
+                );
+                ?>
+                </div>
+                <div class="bg">
+                <?
+		            echo $this->Form->input('USU_TELEFONO', array("label" => "Tel&eacute;fono" ));
+		            ?>
+                </div>
+                <div class="no_bg">
+                <?
+                echo $this->Form->input('USU_DIRECCION', array("label" => "Direcci&oacute;n" ));
+                ?>
+                </div>
+	</fieldset>
+<?php echo $this->Form->end(__('Actualizar')); ?>
+</div>
+<<<<<<< .mine
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	 <ul>
+		 <li><?php echo $this->Html->link(__('Historial Residente'), array('controller' => 'Reportes', 'action' => 'residente')); ?> </li>
+                <li><?php echo $this->Html->link(__('Períodos'), array('controller' => 'Reportes', 'action' => 'periodos')); ?> </li>
+                <li><?php echo $this->Html->link(__('Desglosado'), array('controller' => 'Reportes', 'action' => 'reporte_desglosado')); ?> </li>
+                <li><?php echo $this->Html->link(__('Mi cuenta'), array('controller' => 'Reportes', 'action' => 'mi_cuenta')); ?> </li>
+                <li><?php echo $this->Html->link(__('Cerrar Sesión'), array('controller' => 'login', 'action' => 'logout'), null, __('¿Está seguro que desea cerrar la sesión?')); ?></li>
+	</ul>
+=======
+
+>>>>>>> .r159
+</div>

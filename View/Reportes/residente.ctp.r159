@@ -1,0 +1,44 @@
+
+<div class="inside">
+<div class="asignaciones form">
+	<h2><?php echo __('Reportes'); ?></h2>
+
+    <p>
+        
+    </p>
+
+        <?php echo $this->Form->create('DGAC'); ?>
+	
+
+    <fieldset>
+		
+	<?php
+		//echo $this->Form->input('AERO_ID');
+                echo $this->Form->input("RES_CEDULA", array(
+                "type" => "text", // también sirve "radio"
+                //"options" => $aerolineas,
+                "label" => "Cédula:"
+                    )
+                  );
+                
+                /*echo $this->Form->input("CUPO_ID", array(
+                "type" => "select", // también sirve "radio"
+                "options" => $cupos,
+                "label" => "Cupo:"
+                    )
+                  );
+                */
+                
+		
+	?>
+           
+            <div id="periodos"></div>
+           
+            
+	</fieldset>
+<?php echo $this->Form->end(__('Consultar')); ?>
+
+</div>
+</div>
+
+

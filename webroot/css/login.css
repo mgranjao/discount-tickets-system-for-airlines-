@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+            local('Montserrat-Regular'), 
+            url(Montserrat-Regular.ttf) format('truetype');
+}
+
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding:0px;
+	margin:0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -33px; /* the bottom margin is the negative value of the footer's height */
+}
+
+
+.footer, .push {
+    height: 33px; /* .push must be the same height as .footer */
+}
+
+
+.content_login{
+	position: absolute;
+	top: 25%;
+	width:100%;
+	color:#FFFFFF;
+	height:381px;
+	font-size: 14px;
+}
+
+.header{
+	width:443px;
+	margin:auto;
+	height:72px;
+}
+
+.panel{
+	background-color: #00589a;
+	width:100%;
+	height:264px;
+}
+
+.panel .box{
+	width:443px;
+	margin:auto;
+}
+
+.panel .box .inside{
+	padding-top:15px;
+}
+
+.panel .box .inside h1{
+	font-size: 16px;
+	padding:0px;
+	margin:0px;
+	border-bottom:1px Solid #377bad;
+	font-weight: normal;
+	padding-bottom:10px;
+	margin-bottom: 20px;
+}
+
+.panel .box .inside form{
+	width:80%;
+	margin:auto;
+}
+
+.panel .box .inside div.input label{
+	float:left;
+	width:100px;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+.panel .box .inside div.input input[type="text"]{
+	background-color: #FFFFFF;
+	width:210px;
+	height:27px;
+	border:0px;
+}
+
+.panel .box .inside div.input{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.panel .box .inside div.input input[type="password"]{
+	background-color: #FFFFFF;
+	width:210px;
+	height:27px;
+	border:0px;
+}
+
+.panel .box .inside div.submit input[type="submit"]{
+	background-color: #ee1100;
+	border:0px;
+	padding:5px;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.panel .box .inside .actions{
+	padding-top:1px;
+}
+.panel .box .inside .actions .left{
+	float:left;
+	width:60%;
+	border-right:1px Solid #3077ad;
+	line-height: 40px;
+}
+
+.panel .box .inside .actions .left .inside{
+	
+}
+
+.panel .box .inside .actions .left a{
+	color:#FFFFFF;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+
+.panel .box .inside .actions .left a:hover{
+	text-decoration: underline;
+}
+
+.panel .box .inside .actions .right{
+	float:left;
+	width:39%;
+}
+
+.panel .box .inside .actions .right div.submit{
+	text-align: center;
+	padding-top:10px;
+}
+.clear{
+	clear:both;
+}
+
+/* Mostrar Mensajes de Login (FLASH) */
+
+.container_message{
+	width:443px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	margin-top:10px;
+	color:RED;
+	text-align: center;
+	font-size: 80%;
+}
+
+.panel .box .inside form label.error{
+	color:RED;
+	position: absolute;
+	font-size: 10px;
+	margin-left: 15px;
+	font-weight: normal;
+}
+
+.panel .box .inside form input[type="text"].error , .panel .box .inside form input[type="password"].error{
+	border: 2px Solid RED;
+}
+
+/*  Botón Soporte Técnico */
+
+a.boton_soporte{
+	background: url('../img/ico_soportetecnico.png') no-repeat scroll top left;
+	background-position: 3px 5px;
+	background-color: #072d5a;
+	float: right;
+	text-transform: uppercase;
+	height:33px;
+	display: block;
+	color: #FFFFFF;
+	margin-right: 30px;
+	text-decoration: none;
+	vertical-align: 33px;
+	line-height: 33px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 11px;
+
+	text-indent: 20px;
+}
+
+a.boton_soporte:hover{
+	background-color: #031c3a;
+	text-decoration: underline;
+}
+
+

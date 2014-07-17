@@ -1,0 +1,162 @@
+2013-09-06 15:43:19 Debug: Notice (8): Indirect modification of overloaded element of CakeRequest has no effect in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 10]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 10
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:43:19 Debug: Notice (8): Undefined variable: rp in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 12]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:43:19 Debug: Notice (8): Undefined variable: page in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 13]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:43:19 Debug: Notice (8): Undefined variable: sortorder in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:43:19 Debug: Notice (8): Undefined variable: sortname in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:43:19 Debug: Notice (8): Undefined variable: query in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 18]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Indirect modification of overloaded element of CakeRequest has no effect in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 10]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 10
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Undefined variable: rp in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 12]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Undefined variable: page in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 13]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Undefined variable: sortorder in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Undefined variable: sortname in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 15:57:40 Debug: Notice (8): Undefined variable: query in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 18]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Indirect modification of overloaded element of CakeRequest has no effect in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 10]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 10
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Undefined variable: rp in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 12]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 12
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Undefined variable: page in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 13]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 13
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Undefined variable: sortorder in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Undefined variable: sortname in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 16]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 16
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
+2013-09-06 16:01:01 Debug: Notice (8): Undefined variable: query in [C:\xampp\htdocs\aerolineas\aerolineas\Controller\FlexiController.php, line 18]
+Trace:
+FlexiController::index() - APP\Controller\FlexiController.php, line 18
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 485
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 161
+[main] - APP\webroot\index.php, line 93
+
